@@ -1,3 +1,12 @@
+/* CUSTOM PROPERTY */
+:root {
+    --body-bg: #f1f4ff;
+    --green-btn: #4dc490;
+    --purple-btn: #655af2;
+    --red-link: #f03535;
+    --text-color: #000;
+}
+
 /* GLOBAL STYLES */
 html {
     height: 100%;
@@ -21,7 +30,7 @@ body {
     font-style: 16px;
     line-height: 1.5;
     background-color: #fff;
-    color: #222;
+    color: var(--text-color);
 }
 
 img {
